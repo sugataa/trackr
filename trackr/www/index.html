@@ -87,6 +87,9 @@
                   <label class="item item-input">
                     <input type="text" placeholder="What do you need to do?" ng-model="task.title">
                   </label>
+                  <label class="item item-input">
+                    <input type="number" placeholder="How much time do you want to spend?" ng-model="task.time">
+                  </label>
                 </div>
                 <div class="padding">
                   <button type="submit" class="button button-block button-positive">Create Task</button>
@@ -115,6 +118,12 @@
                 <div class="list">
                   <label class="item item-input">
                     <input type="text" placeholder="Project Name" ng-model="project.title">
+                  </label>
+                  <label class="item item-input">
+                    <input type="text" placeholder="Estimated time to finish" ng-model="project.time">
+                  </label>
+                  <label class="item item-input">
+                    <input type="text" placeholder="Project goals separated by comma" ng-model="project.goals">
                   </label>
                 </div>
                 <div class="padding">
